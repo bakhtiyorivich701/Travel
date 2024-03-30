@@ -1,0 +1,1911 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+
+header{
+   width: 100%;
+   height: 80px;
+   background-color: #000;
+   color: #fff;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+       
+
+
+
+.open{
+    display: none;
+}
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255,);
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: none;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    display: none;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    text-transform: capitalize;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #FFA500;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+
+
+
+
+.bosh2{
+    color: rgb(206, 142, 23);
+}
+
+.links{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links li a{
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+}
+
+.links li a:hover{
+    color: #FFA500;
+}
+
+.ong{
+    width: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ong #icon1{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.ong #icon1:hover{
+    color: #FFA500;
+}
+
+.home{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.vd{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+    color: white;
+}
+
+.text1 h3{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.text1 p{
+    text-transform: capitalize;
+}
+
+.text1 button{
+    padding: 10px 30px;
+    text-transform: capitalize;
+    background-color: #FFA500;
+    color: white;
+    border: 2px solid #FFA500;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.text1 button:hover{
+    background-color: white;
+    color: #FFA500;
+}
+
+.registration{
+    width: 100%;
+    height: 650px;
+    margin-top: 3%;
+}
+
+.text2{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+}
+
+.text2 .a{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text2 .a span{
+        background-color: #FFEDCC;
+        padding: 15px;
+        margin: 1px;
+        color: #FFBB4B;
+}
+
+
+.text2 .b{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text2 .b span{
+    background-color: #FFEDCC;
+    padding: 15px;
+    margin: 1px;
+    color: #FFBB4B;
+}
+
+
+.text2 .c{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text2 .c span{
+    background-color: #FFEDCC;
+    padding: 15px;
+    margin: 1px;
+    color: #FFBB4B;
+}
+
+.div1{
+    width: 85%;
+    height: 470px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-right: 12%;
+}
+
+.box1{
+    width: 40%;
+    height: 100%;
+}
+
+.box1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.box2 {
+    width: 40%;
+    height: 90%;
+    box-shadow: 2px 2px 20px #ccc;
+}
+
+.inputdiv{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    font-family: Arial,;
+    line-height: 40px;
+}
+
+.inputdiv input{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px 40px;
+    font-size: 17px;
+    margin-left: 35px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: #FFA500;
+    border: 2px solid #FFA500;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: #FFA500;
+}
+
+.tariflar{
+    width: 90%;
+    height: 1400px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.tariflar .text3{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: auto;
+}
+
+.tariflar .text3 span{
+    background-color: #FFEDCC;
+    padding: 15px;
+    margin: 1px;
+    color: #FFBB4B;
+}
+
+.kotta {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1250px;
+    margin-top: 2%;
+}
+
+.div{
+    width: 31%;
+    height: 600px;
+    box-shadow: 1px 1px 16px rgb(180, 180, 180);
+    margin: 15px;
+}
+
+
+.div:hover{
+    box-shadow: 1px 1px 16px rgb(189, 109, 17);
+    transition: .4s;
+}
+
+.div img {
+  width: 100%;
+  height: 70%;
+}
+
+.div .text4{
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.text4 #icons{
+    color: #FFBB4B;
+    font-size: 20px;
+}
+
+.text4 h3{
+    font-weight: 500;
+}
+
+.text4 .iconlar{
+    font-size: 15px;
+    color: #FFBB4B;
+}
+
+
+.text4 button{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #FFA500;
+    border: 2px solid #FFA500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+.text4 button:hover{
+    background-color: #fff;
+    color: #FFA500;
+}
+
+.servislar{
+    width: 90%;
+    height: 650px;
+    margin: auto;
+}
+
+.servislar .text5{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: auto;
+}
+
+.text5 span{
+    background-color: #FFEDCC;
+    padding: 15px;
+    margin: 1px;
+    color: #FFBB4B;
+}
+
+.kotta1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+}
+
+.kotta1 .text6{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text6 #icontar{
+    color: #FFA500;
+    font-size: 40px;
+}
+
+.text6 h2{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.text6 p {
+    color: grey;
+    text-align: center;
+}
+
+.rasmlar{
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+}
+
+
+.rasmlar1{
+    width: 90%;
+    height: 850px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.rasmlar .text7{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: auto;
+}
+
+.text7 span{
+    background-color: #FFEDCC;
+    padding: 15px;
+    margin: 1px;
+    color: #FFBB4B;
+}
+
+.rasm{
+    width: 24%;
+    box-shadow: 1px 1px 16px rgb(180, 180, 180);
+    margin: 5px;
+    background-color: #f2f2f2;
+    height: 30%;
+}
+
+
+.rasm:hover{
+    box-shadow: 1px 1px 16px rgb(189, 109, 17);
+    transition: .4s;
+}
+
+
+.rasm1:hover{
+    box-shadow: 1px 1px 16px rgb(189, 109, 17);
+    transition: .4s;
+}
+
+.rasm img{
+    width: 100%;
+    height: 100%;
+    padding: 10PX;
+}
+
+
+.rasm1{
+    width: 98%;
+    box-shadow: 1px 1px 16px rgb(180, 180, 180);
+    background-color: #f2f2f2;
+    margin: 5px;
+    height: 30%;
+}
+
+
+.rasm1 img{
+    width: 100%;
+    height: 100%;
+    padding: 10PX;
+}
+
+.sharh{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+.sharh .text8{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: auto;
+}
+
+.text8 span{
+    background-color: #FFEDCC;
+    padding: 15px;
+    margin: 1px;
+    color: #FFBB4B;
+}
+
+.kotta2{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kotta2 .wer{
+    width: 32%;
+    height: 280px;
+    text-align: center;
+    box-shadow: 1px 1px 16px rgb(180, 180, 180);
+}
+
+
+.kotta2 .wer:hover{
+    box-shadow: 1px 1px 16px rgb(189, 109, 17);
+    transition: .4s;
+}
+
+.wer img{
+    width: 28%;
+    height:45%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.wer p{
+    margin: 5px 0;
+}
+
+.wer .iconlar1{
+    font-size: 15px;
+    color: #FFBB4B;
+}
+
+.aloqa{
+    width: 80%;
+    height: 450px;
+    margin: auto;
+}
+
+.aloqa .text9{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+}
+
+.text9 span{
+        background-color: #FFEDCC;
+        padding: 15px;
+        margin: 1px;
+        color: #FFBB4B;
+}
+
+.kotta3{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 90%;
+    margin-top: 3%;
+}
+
+.img{
+    width: 80%;
+    height: 100%;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.inputs{
+    width: 65%;
+    height: 90%;
+    box-shadow: 1px 1px 16px rgb(180, 180, 180);
+    border-radius: 10px;
+}
+
+
+.inputs:hover{
+    box-shadow: 1px 1px 16px rgb(189, 109, 17);
+    transition: .4s;
+}
+
+.input1{
+    width: 90%;
+    padding: 10px 2px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+}
+
+.kar1{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.input1 input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: #eeeeee;
+    border-radius: 5px;
+    color: #000;
+}
+
+.area{
+    margin-left: 30px;
+    padding: 5px 5px;
+    background: #eeeeee;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.rasimlar{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+
+.rasimlar1 img {
+    width: 300px;
+    height: 200px;
+}
+
+footer{
+    width: 100%;
+    height: 380px;
+    background-color: #333333;
+    color: white;
+}
+
+.large1{
+   display: flex;
+   justify-content: center;
+}
+
+.large{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #6d6d6d;
+    margin: 2% 0 2% 0;
+}
+
+.large .kays{
+    width: 20%;
+    line-height: 29px;
+}
+
+.kays h2{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.kays p{
+    color: rgb(190, 190, 190);
+    text-transform: capitalize;
+}
+
+
+.large li a {
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   color: rgb(190, 190, 190);
+   text-transform: capitalize;
+}
+.large li a:hover {
+    color: #FFA500;
+}
+
+.document{
+   display: flex;
+   justify-content: center;
+}
+
+.document h3{
+    text-transform: capitalize;
+}
+
+.document h3 span{
+    color: #FFA500;
+}
+
+@media screen and (max-width:1440px) {
+    .rasimlar1 img {
+        width: 250px;
+    }
+
+    .aloqa {
+        width: 85%;
+    }
+
+    .kotta3{
+        width: 96%;
+    }
+
+    .sharh .text8{
+        width: 35%;
+    }
+
+    .rasmlar .text7{
+        width: 30%;
+    }
+
+    .servislar .text5{
+        width: 33%;
+    }
+
+    .tariflar .text3{
+        width: 30%;
+    }
+    .text1{
+        left: 35%;
+    }
+
+    .links{
+        width: 40%;
+    }
+
+    .ong{
+        width: 4%;
+    }
+
+    .text2{
+        width: 55%;
+    }
+
+    .rasimlar{
+        height: 320px;
+    }
+
+    
+    .tariflar {
+        width: 100%;
+    }
+
+    .inputs{
+        width: 69%;
+    }
+
+}
+
+@media screen and (max-width:1398px) {
+    .servislar .text5{
+        width: 35%;
+    }
+
+    .aloqa  .text9{
+        width: 25%;
+    }
+
+    .wer p{
+        font-size: 13px;
+    }
+
+    .wer img {
+        width: 35%;
+    }
+}
+
+
+@media screen and (max-width:1376px) {
+    .rasmlar .text7{
+        width: 35%;
+    }
+
+    .sharh .text8{
+        width: 35%;
+    }
+
+    .text2{
+        width: 60%;
+    }
+ 
+    .inputs{
+        width: 71%;
+    }
+}
+
+
+
+@media screen and (max-width:1346px) {
+    .servislar .text5 {
+        width: 38%;
+    }
+
+    .sharh .text8{
+        width: 38%;
+    }
+
+    .text6 p {
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (max-width:1285px) {
+    .div{
+        margin: 14px;
+    }
+
+    .inputs{
+        width: 83%;
+    }
+}
+
+
+@media screen and (max-width:1267px) {
+    .rasimlar1 img {
+        width: 225px;
+    }
+
+    footer{
+        height: 355px;
+    }
+}
+
+
+@media screen and (max-width:1240px) {
+    .sharh .text8{
+        width: 40%;
+    }
+
+    .servislar .text5{
+        width: 40%;
+    }
+
+    .tariflar .text3{
+        width: 35%;
+    }
+}
+
+
+@media screen and (max-width:1237px) {
+    .div img {
+        height: 65%;
+    }
+
+    .rasmlar1{
+        width: 95%;
+    }
+
+    .rasm1 {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:1200px) {
+
+    .text2{
+        width: 65%;
+    }
+
+    .links{
+        width: 45%;
+    }
+
+    .div {
+        margin: 13px;
+    }
+
+    .inputs{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1115px) {
+    .div{
+        margin: 11px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .rasmlar .text7{
+        width: 42%;
+    }
+
+    .aloqa .text9 {
+        width: 30%;
+    }
+
+    .sharh .text8{
+        width: 43%;
+    }
+    .rasm{
+        width: 23%;
+    }
+
+    .rasm1 {
+        width: 95%;
+    }
+
+    .rasimlar1 img {
+        width: 200px;
+    }
+
+    .servislar .text5{
+        width: 42%;
+    }
+
+    .text6 p {
+        font-size: 13px;
+    }
+
+}
+
+
+@media screen and (max-width:1120px) {
+    .rasimlar1 img {
+        width: 180px;
+    }
+    .sharh .text8 {
+        width: 45%;
+    }
+
+    .text2 {
+        width: 70%;
+    }
+
+    
+}
+
+
+@media screen and (max-width:1190px) {
+    .large .kays{
+        width: 24%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .tariflar .text3 {
+        width: 40%;
+    }
+
+    .servislar .text5 {
+        width: 47%;
+    }
+
+    .links{
+        width: 50%;
+    }
+
+    .ong{
+        width: 5%;
+    }
+
+    .text1{
+        left: 30%;
+    }
+
+    .text2 {
+        width: 75%;
+    }
+
+    .div1 {
+        width: 80%;
+    }
+    .inputdiv {
+        width: 78%;
+    }
+
+    .area {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .links {
+        width: 55%;
+    }
+
+    .home {
+        height: 600px;
+    }
+
+    .text1{
+        left: 25%;
+    }
+
+    .text2{
+        width: 80%;
+    }
+    .div1{
+        width: 100%;
+    }
+
+    .inputdiv{
+        width: 80%;
+    }
+
+    .box2 {
+        width: 38%;
+        height: 85%;
+    }
+
+    .btn{
+        font-size: 12px;
+    }
+
+    .div img {
+        height: 55%;
+    }
+
+    .kotta {
+        height: 1000px;
+    }
+
+    .div {
+        height: 500px;
+    }
+
+    .tariflar {
+        height: 1180px;
+    }
+
+    .servislar .text5 {
+        width: 48%;
+    }
+
+    .rasmlar .text7 {
+        width: 43%;
+    }
+
+    .sharh .text8 {
+        width: 50%;
+    }
+
+    .area{
+        width: 88%;
+        margin-left: 25px;
+    }
+
+    .inputs {
+        width: 80%;
+        height: 80%;
+    }
+
+    .img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .rasimlar {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .div {
+        margin: 10px;
+    }
+
+    .servislar .text5 {
+        width: 50%;
+    }
+
+    .sharh {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:855px) {
+    .div {
+        margin: 9px;
+    }
+    .rasimlar1 img {
+        width: 160px;
+    }
+
+    .large {
+        width: 85%;
+    }
+
+    .wer h2 {
+        font-size: 18px;
+    }
+
+    .wer img {
+        width: 45%;
+        height: 40%;
+    }
+
+    .text2 {
+        width: 90%;
+    }
+
+}
+@media screen and (max-width:820px) {
+    .links{
+        display: none;
+    }
+
+    .ong{
+        width: 10%;
+        align-items: center;
+        margin-left: 45%;
+    }
+
+    .home {
+        height: 500px;
+    }
+
+    .open{
+        display: inline;
+    }
+
+    .overlay{
+        display: inline;
+    }
+
+    .overlay-content{
+        display: inline;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 5px;
+        right: 50px;
+        font-size: 60px;
+      }
+
+      .text1{
+        left: 25%;
+      }
+    
+      .text2{
+        width: 90%;
+        font-size: 12px;
+      }
+
+      .box2 {
+        width: 50%;
+        height: 83%;
+        }
+
+        .inputdiv{
+            width: 80%;
+        }
+
+        .btn {
+            padding: 5px 30px;
+            font-size: 15px;
+        }
+
+            .box1{
+                width: 50%;
+            }
+
+            .registration{
+             height: 580px;
+            }
+
+            .div1{
+                width: 80%;
+            }
+
+            .div{
+                width: 47%;
+                height: 485px;
+            }
+
+            .tariflar{
+                height: 1620px;
+            }
+            .tariflar .text3 {
+                width: 45%;
+                font-size: 13px;
+            }
+
+            .servislar{
+                height: 820px;
+            }
+
+            .servislar .text5 {
+                width: 57%;
+                font-size: 13px;
+            }
+
+            .kotta1{
+                height: 250px;
+            }
+
+            .kotta1 .text6 {
+                width: 49%;
+            }
+
+            .rasmlar {
+                height: 960px;
+            }
+            .rasmlar .text7 {
+                width: 51%;
+                font-size: 13px;
+            }
+
+            .div img {
+                height: 55%;
+            }
+
+            .kotta{
+                margin-top: 5%;
+            }
+
+            .rasmlar1{
+                margin-top: 5%;
+            }
+
+            .sharh .text8 {
+                width: 56%;
+                font-size: 13px;
+            }
+
+            .wer h2 {
+                font-size: 17px;
+            }
+
+            .sharh{
+                width: 90%;
+                height: 430px;
+            }
+
+            .wer img {
+                width: 55%;
+            }
+
+            .wer p {
+                font-size: 12px;
+                margin: 8px 0;
+            }
+
+            .aloqa .text9 {
+                width: 35%;
+                font-size: 13px;
+            }
+
+            .aloqa .text9 {
+                width: 35%;
+                font-size: 13px;
+            }
+
+            .kotta3 {
+                width: 100%;
+                margin-top: 5%;
+            }
+
+            .img {
+                width: 70%;
+                height: 87%;
+            }
+
+            .inputs {
+                width: 65%;
+                height: 80%;
+            }
+
+            .area{
+                width: 88%;
+                margin-left: 20px;
+            }
+
+            .rasimlar1 img {
+                width: 150px;
+                height: 180px;
+            }
+
+            .rasimlar {
+                margin-top: 0;
+                height: 250px;
+            }
+
+            .large {
+                width: 90%;
+            }
+
+            .kays h2 {
+                margin-bottom: 5px;
+                font-size: 17px;
+            }
+
+            footer {
+                height: 320px;
+            }
+
+            .large .kays {
+                line-height: 27px;
+            }
+
+}
+
+@media screen and (max-width:760px) {
+    .kays p {
+        font-size: 12px;
+    }
+
+    footer {
+        height: 300px;
+    }
+
+    .tariflar .text3 {
+        font-size: 12px;
+    }
+
+    .rasmlar .text7 {
+        font-size: 12px;
+    }
+
+    .servislar .text5 {
+        font-size: 11px;
+    }
+
+    .text2 {
+        font-size: 10px;
+    }
+
+    .text1 {
+        left: 20%;
+        top: 35%;
+    }
+
+    .home {
+        height: 480px;
+    }
+
+    .kotta2 .wer {
+        height: 285px 
+    }
+
+    .rasimlar1 img {
+        width: 140px;
+}
+.rasimlar1 img {
+    width: 130px;
+    height: 170px;
+}
+}
+
+@media screen and (max-width:730px) {
+    .ong {
+        width: 12%;
+    }
+
+    .text2 {
+        font-size: 8px;
+    }
+
+    .tariflar .text3 {
+        font-size: 10px;
+    }
+
+    .servislar .text5 {
+        font-size: 9px;
+    }
+
+    .rasmlar .text7 {
+        font-size: 9px;
+    }
+
+    .rasm {
+        width: 48%;
+    }
+
+    .rasmlar {
+        height: 1420px;
+    }
+
+    .rasm1 {
+        width: 98%;
+    }
+
+    .wer img {
+        width: 55%;
+        height: 38%;
+    }
+    .aloqa .text9 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:665px) {
+    .text2 {
+        flex-direction:column;
+        width: 30%;
+    }
+
+    .text2 .a {
+        justify-content: center;
+    }
+
+    .text2 .b {
+        justify-content: center;
+        margin: 5px 0; 
+    }
+
+    .text2 .c {
+        justify-content: center;
+    }
+
+    .btn {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+
+    .inputdiv {
+        width: 75%;
+    }
+
+    .tariflar .text3 {
+        font-size: 10px;
+        width: 50%;
+    }
+
+    .div {
+        margin: 9px;
+    }
+
+    .servislar .text5 {
+        font-size: 9px;
+        width: 63%;
+    }
+
+    .text6 h2 {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .kotta1 {
+        height: 185px;
+    }
+
+    .text6 p {
+        font-size: 11px;
+    }
+
+    .text6 #icontar {
+        font-size: 30px;
+    }
+
+    .servislar {
+        height: 640px;
+    }
+
+    .overlay a {
+    font-size: 28px}
+
+    .overlay .closebtn {
+    font-size: 45px;
+    top: 15px;
+    right: 35px;
+    }
+
+    .rasmlar .text7 {
+        font-size: 9px;
+        width: 57%;
+    }
+
+    .sharh .text8 {
+        font-size: 9px;
+    }
+
+    .aloqa .text9 {
+        width: 42%;
+    }
+
+    .aloqa {
+        width: 95%;
+    }
+
+    .rasimlar1 img {
+        width: 118px;
+        height: 160px;
+    }
+
+    .document h3 {
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .div {
+        margin: 8px;
+    }
+
+    .home {
+        height: 400px;
+    }
+
+    .text1 {
+        left: 17%;
+    }
+
+    .text1 h3 {
+        font-size: 30px;
+    }
+
+    .text1 p {
+        font-size: 12px;
+    }
+
+    .text1 button {
+        padding: 8px 20px;
+    }
+
+    .ong {
+        width: 14%;
+    }
+
+    .inputdiv input {
+        font-size: 10px;
+    }
+
+   .box2 {
+        width: 50%;
+        height: 75%;
+    }
+
+    .inputdiv {
+        width: 72%;
+    }
+
+    .tariflar .text3 {
+        width: 55%;
+    }
+
+    .servislar .text5 {
+        width: 67%;
+    }
+
+    .sharh .text8 {
+        width: 62%;
+    }
+
+    .wer h2 {
+        font-size: 14px;
+    }
+
+    .rasimlar1 img {
+        width: 100px;
+    }
+
+    .rasm {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .registration {
+        height: 1000px;
+    }
+
+    .box1{
+        width: 100%;
+    }
+
+    .box2{
+        width: 100%;
+        height: 100%;
+    }
+
+    .inputdiv {
+        width: 83%;
+    }
+
+    .div1{
+        flex-direction: column;
+        height: 800px;
+        width: 75%;
+    }
+
+    .div {
+        width: 100%;
+        height: 500px;
+    }
+
+    .div img {
+        height: 65%;
+    }
+
+    .text4 button {
+        padding: 6px 20px;
+    }
+
+    .tariflar .text3 {
+        width: 62%;
+    }
+
+    .tariflar {
+        height: 3200px;
+    }
+
+    .servislar .text5 {
+        width: 76%;
+    }
+
+    .kotta1 .text6 {
+        width: 85%;
+    }
+
+    .servislar {
+        height: 1150px;
+    }
+
+    .rasm{
+        width: 100%;
+    }
+
+    .rasmlar .text7 {
+        width: 68%;
+    }
+
+    .rasmlar {
+        height: 2500px;
+    }
+
+    .sharh .text8 {
+        width: 70%;
+    }
+
+    .kotta2 .wer {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .wer img {
+        width: 35%;
+        height: 55%;
+    }
+
+    .sharh {
+        height: 1000px;
+    }
+
+    .wer p {
+        font-size: 11px;
+    }
+
+    .wer h2 {
+        font-size: 18px;
+    }
+
+    .aloqa .text9 {
+        width: 44%;
+    }
+
+    .aloqa {
+        height: 900px;
+    }
+
+    .kotta3 {
+        flex-direction: column;
+    }
+
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .inputs {
+        width: 100%;
+        height: 100%;
+    }
+
+    .area {
+        margin-left: 30px;
+    }
+
+    .rasimlar {
+        height: 950px;
+    }
+
+    .rasimlar1 img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .large{
+      flex-direction: column;
+    }
+
+    .large li a {
+        display: none;
+    }
+
+    .kays p {
+     display: none;
+    }
+
+    .large .kays {
+        width: 100%;
+    }
+
+    .document h3 {
+        font-size: 10px;
+    }
+
+    .ong {
+        width: 16%;
+    }
+
+    footer {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .text1 h3 {
+        font-size: 25px;
+    }
+
+    .text1 p {
+        font-size: 10px;
+    }
+
+    .text1 {
+        left: 15%;
+    }
+
+    .ong {
+        width: 20%;
+    }
+
+    .tariflar .text3 {
+        width: 80%;
+    }
+
+    .servislar .text5 {
+        width: 100%;
+        font-size: 9px;
+    }
+
+    .rasmlar .text7 {
+        width: 85%;
+    }
+
+    .sharh .text8 {
+        width: 85%;
+    }
+
+    .aloqa .text9 {
+        width: 55%;
+    }
+
+    .inputs {
+        width: 100%;
+        height: 80%;
+    }
+    .area {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .rasmlar .text7 {
+        width: 90%;
+    }
+
+    .sharh .text8 {
+        width: 90%;
+    }
+
+    .aloqa .text9 {
+        width: 60%;
+    }
+
+    .tariflar .text3 {
+        width: 85%;
+    }
+
+    .servislar .text5 {
+        width: 100%;
+        font-size: 7px;
+    }
+
+   
+}
+
+
+@media screen and (max-width:400px) {
+    .div .text4 {
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .ong {
+        width: 22%;
+        margin-left: 25%;
+    }
+
+    .text1 h3 {
+        font-size: 21px;
+    }
+
+    .text1 {
+        left: 12%;
+    }
+
+    .text1 button {
+        padding: 5px 15px;
+    }
+
+    .home {
+        height: 350px;
+    }
+
+    .rasmlar .text7 {
+        width: 96%;
+    }
+
+    .sharh .text8 {
+        width: 98%;
+    }
+
+    .aloqa .text9 {
+        width: 65%;
+    }
+
+    .tariflar .text3 {
+        width: 90%;
+    }
+
+    .servislar .text5 {
+        width: 100%;
+        font-size: 6px;
+    }
+
+    .area {
+        margin-left: 20px;
+    }
+
+    .document h3 {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kotta2 {
+        margin-top: 10%;
+    }
+
+    .rasmlar1 {
+        margin-top: 10%;
+    }   
+
+    .div1 {
+        margin-top: -15%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .bosh1{
+        font-size: 18px;
+    }
+
+    .ong {
+        width: 24%;
+        margin-left: 20%;
+    }
+
+    .text1 {
+        left: 7%;
+        line-height: 30px;
+    }
+
+    .home {
+        height: 300px;
+    }
+    .document h3 {
+        font-size: 11px;
+    }
+
+    .kays h2 {
+        font-size: 15px;
+    }
+
+    .aloqa .text9 {
+        width: 72%;
+    }
+
+    .tariflar .text3 {
+        width: 98%;
+        font-size: 8px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
